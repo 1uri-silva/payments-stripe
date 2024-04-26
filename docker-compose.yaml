@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+
+  postgres:
+    image: postgres:alpine3.19
+    container_name: db
+    ports:
+      - '2635:5432'
+    volumes:
+      - 'db:/var/lib/postgresql/data'
+    environment:
+      - POSTGRES_DB=${POSTGRES_DB}
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASS}
+
+volumes:
+  db:

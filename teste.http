@@ -1,0 +1,11 @@
+POST http://localhost:2000/user/new
+Content-Type: application/json
+
+{
+  "first_name": "teste",
+  "last_name": "teste",
+  "email": "teste@email.com"
+}
+
+###
+GET http://localhost:2000/checkout/:userId

@@ -8,12 +8,12 @@ Credits for this [VIDEO YOUTUBE](https://www.youtube.com/watch?v=W7x3zsm8NoM)
 
 To run this project, you'll need to add the following environment variables to your .env file.
 
-`DATABASE_URL`  
-`POSTGRES_USER`  
-`POSTGRES_PASS`  
-`POSTGRES_DB`
+`DATABASE_URL=`  
+`POSTGRES_USER=`  
+`POSTGRES_PASS=`  
+`POSTGRES_DB=`
 
-`STRIPE_PRICE_KEY=price_"`  
+`STRIPE_PRICE_KEY=price_`  
 `STRIPE_PRIVATE_KEY_WH=whsec_`  
 `STRIPE_PRIVATE_KEY=sk_test_`  
 

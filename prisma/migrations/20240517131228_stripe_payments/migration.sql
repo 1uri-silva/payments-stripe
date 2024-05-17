@@ -2,7 +2,7 @@
 CREATE TABLE "stripe_payments" (
     "id" TEXT NOT NULL,
     "stripeCustomerId" TEXT,
-    "stripeCustomerStatus" TEXT,
+    "stripeSubscriptionStatus" TEXT,
     "userId" TEXT NOT NULL,
 
     CONSTRAINT "stripe_payments_pkey" PRIMARY KEY ("id")

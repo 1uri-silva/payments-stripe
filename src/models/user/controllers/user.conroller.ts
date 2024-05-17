@@ -18,7 +18,7 @@ class UserController {
 			throw new BadRequest("User already exists");
 		}
 
-		const customer = await customersController.createStripeCustomer(
+		const customer = await customersController.createStripeCostumer(
 			email,
 			`${first_name} ${last_name}`,
 		);
